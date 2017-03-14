@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="stu.com.testretrofit.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetrofitPost请求,请求体Map形式" />
+
+    <Button
+        android:id="@+id/btn_post_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetrofitPost请求,请求体键值对形式" />
+
+    <Button
+        android:id="@+id/btn_post_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetrofitPost请求,请求体表单形式" />
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetrofitGet请求" />
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
